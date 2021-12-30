@@ -35,8 +35,6 @@ const Feed = () => {
     );
   }
 
-  if(!pins.length) return <h2>No Pins avaliable</h2>
-  
   return (
     <div>
       {pins && (
